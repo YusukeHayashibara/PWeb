@@ -1,6 +1,6 @@
 let pokemonData;
 
-fetch('https://raw.githubusercontent.com/yusukehayashibarao/PWeb/main/data/pokemon.json')
+fetch('https://raw.githubusercontent.com/yusukehayashibara/PWeb/main/data/pokemon.json')
     .then(response => response.json())
     .then(data => pokemonData = data)
     .catch(error => console.error('Erro ao acessar os dados', error));
